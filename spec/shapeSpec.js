@@ -16,5 +16,9 @@ describe("Shape", function() {
     });
   });
 
-  // Write more specs!!
+  describe('RGB', function(){
+  	it('should return blue', function(){
+  		expect(shape.getRGB()).toEqual("rgb(255,0,0)")
+  		});
+  	});
 });
